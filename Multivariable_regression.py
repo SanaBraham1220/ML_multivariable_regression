@@ -140,37 +140,11 @@ ax.set_ylabel('Price')
 ax.set_title('Size vs. Price')
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#draw the line
-print('*******************************************************') 
-# fig, ax = plt.subplots(figsize=(5,5))
-# ax.plot(x, f, 'r', label='Prediction')
-# ax.scatter(data.Population, data.Profit, label='Training Data')
-# ax.legend(loc=2)
-# ax.set_xlabel('Population')
-# ax.set_ylabel('Profit')
-# ax.set_title('Predicted Profit  vs. Population Profit')  
-# 
-# #draw the cost function
-# fig, ax = plt.subplots(figsize=(5,5))
-# ax.plot(np.arange(iters), cost , 'r')
-# ax.set_xlabel('Iterations')
-# ax.set_ylabel('Cost')
-# ax.set_title('Error vs Training Epoch')
-#                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+#draw the cost function
+fig, ax = plt.subplots(figsize=(5,5))
+ax.plot(np.arange(iters), cost , 'r')
+ax.set_xlabel('Iterations')
+ax.set_ylabel('Cost')
+ax.set_title('Error vs Training Epoch')
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 # =============================================================================
